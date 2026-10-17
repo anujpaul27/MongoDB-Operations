@@ -14,4 +14,4 @@ use('e-commerce')
 
 
 // Sorting and Limiting
-db.products.find().sort({price:1,}).limit(2)
+db.products.find().sort({price:1,}).limit(1)
